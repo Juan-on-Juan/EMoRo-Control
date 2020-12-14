@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:background="@drawable/bgmenu"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="269dp"
+        android:layout_marginTop="450dp"
+        >
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/beta1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:onClick="finishes"
+            android:src="@drawable/icoarrowred"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal"
+        android:onClick="homeSc">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/icohomewhite"
+            android:layout_gravity="top"/>
+
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/Home"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="120dp"
+        android:orientation="horizontal"
+        android:onClick="OpenJoy">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/icojoystickwhite"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/Joystick"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="195dp"
+        android:orientation="horizontal"
+        android:onClick="OpenGyro">
+
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/icogyrowhite"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/Gyroscope"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="265dp"
+        android:orientation="horizontal"
+        android:onClick="openVoice">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/icomicwhite"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/Microphone"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="330dp"
+        android:orientation="horizontal"
+        android:onClick="OpenNormal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/iconormalwhite"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/Normal"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="400dp"
+        android:orientation="horizontal"
+        android:onClick="openAUTH">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/icoaboutauthorwhite"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/AboutAuth"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="470dp"
+        android:orientation="horizontal"
+        android:onClick="openAT">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/icoaboutappwhite"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:layout_width="340dp"
+            android:layout_height="60dp"
+            android:text="@string/AboutApp"
+            android:gravity="center"
+            android:fontFamily="@font/square"
+            android:textColor="@color/colorPrimary"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

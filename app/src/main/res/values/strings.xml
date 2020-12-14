@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EmoroControl</string>
+    <string name="Home">Home</string>
+    <string name="Joystick">Joystick</string>
+    <string name="Gyroscope">Gyroscope</string>
+    <string name="Microphone">Voice Control</string>
+    <string name="Normal">Normal</string>
+    <string name="AboutAuth">About Authors</string>
+    <string name="AboutApp">About App</string>
+    <string name="BlueToothStatus">Status:</string>
+    <string name="AboutUs">Juan on Juan organizacija je u sklopu predmeta Programiranje moblinih uredaja koja se sastoji od 2 clana koji izraduju aplikacije i nude programska rjesenja za zadane probleme.</string>
+    <string name="AboutApplication">EMoRo Control aplikacija je koja putem bluetootha omogucuje multimodularno upravljanje EMoRo robotom. Razvijena je od strane organizacije Juan on Juan. Moguce je koristenje Joystick moda, Gyroscope moda, Glasovno upravljanje(ENG), D-Pad upraljanje.</string>
+</resources>

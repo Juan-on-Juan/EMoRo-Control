@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bluetooh"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/btIco"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bluetooth"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/btStatus"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="@string/BlueToothStatus"
+        android:fontFamily="@font/square"
+        android:textSize="25sp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+        android:text="on/off"
+        android:fontFamily="@font/square"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        tools:ignore="SmallSp" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:textSize="16sp"
+        android:id="@+id/switchBlueT"
+        android:switchMinWidth="60dp"
+        android:layout_width="65dp"
+        android:layout_height="50dp"
+        android:textOn="On"
+        android:textOff="Off"
+        tools:ignore="UseSwitchCompatOrMaterialXml"
+        android:layout_gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/discoverButt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/square"
+        android:text="CONNECT"
+        android:layout_marginTop="30dp"
+        />
+
+
+
+
+
+</LinearLayout>
